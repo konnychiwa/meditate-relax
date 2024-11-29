@@ -5,20 +5,20 @@ import { RxDotFilled } from "react-icons/rx"
 const SlideCarousel = () => {
   const slides = [
     {
-      url: "/assets/images/mindfulness.png",
+      url: "/assets/images/mindfulness.webp",
     },
     {
-      url: "/assets/images/focused.png",
+      url: "/assets/images/focused.webp",
     },
     {
-      url: "assets/images/mantra.png",
+      url: "assets/images/mantra.webp",
     },
 
     {
-      url: "assets/images/visualization.png",
+      url: "assets/images/visualization.webp",
     },
     {
-      url: "assets/images/movement.png",
+      url: "assets/images/movement.webp",
     },
   ]
 
