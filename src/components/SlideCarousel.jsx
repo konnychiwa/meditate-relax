@@ -42,6 +42,7 @@ const SlideCarousel = () => {
   return (
     <div className="max-[1400px] h-[500px] lg:h-[800px] sm:h-[700px] w-full m-auto pb-16 px-4 relative group">
       <div
+        fetchpriority="low"
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
       ></div>

@@ -1,8 +1,9 @@
 import { Canvas } from "@react-three/fiber"
-import { useGLTF, Stage, PresentationControls } from "@react-three/drei"
+import { useGLTF, Stage, PresentationControls, Loader } from "@react-three/drei"
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
 import { penguinImg } from "../utils/index"
+import { Suspense } from "react"
 
 function Model(props) {
   const { scene } = useGLTF("models/model.glb")
@@ -18,7 +19,7 @@ function Model(props) {
 
 const Hero = () => {
   useGSAP(() => {
-    gsap.to("#hero", { opacity: 1, delay: 0.8 })
+    gsap.to("#hero", { opacity: 1, delay: 0.5 })
   }, [])
 
   return (
@@ -30,7 +31,7 @@ const Hero = () => {
             Meditate & Relax
           </p>
         </div>
-        <div className="w-screen h-[600px] max-sm:hidden max-md:hidden overflow-hidden rounded-full">
+        <div className="w-screen h-[600px] max-sm:hidden overflow-hidden rounded-full">
           <Canvas dpr={[1, 2]} shadows camera={{ fov: 95 }}>
             <PresentationControls
               speed={1.5}
@@ -39,7 +40,9 @@ const Hero = () => {
               polar={[0.3, Math.PI / 4]}
             >
               <Stage environment={"sunset"}>
-                <Model scale={0.01} />
+                <Suspense fallback={<Loader />}>
+                  <Model scale={0.01} />
+                </Suspense>
               </Stage>
             </PresentationControls>
           </Canvas>

@@ -59,7 +59,7 @@ canvas {
     @apply text-center;
   }
   .input-box > input {
-    @apply h-[50px] w-[50px] outline-none text-center text-xl ml-5 mt-4 rounded-md text-black;
+    @apply h-[50px] w-[50px] outline-none text-center text-xl ml-1 mt-4 rounded-md text-black;
   }
 
   .section-heading {
