@@ -40,9 +40,7 @@ const Hero = () => {
               polar={[0.3, Math.PI / 4]}
             >
               <Stage environment={"sunset"}>
-                <Suspense fallback={<Loader />}>
-                  <Model scale={0.01} />
-                </Suspense>
+                <Model scale={0.01} />
               </Stage>
             </PresentationControls>
           </Canvas>
