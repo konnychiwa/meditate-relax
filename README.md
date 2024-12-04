@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://it.legacy.reactjs.org/">
-    <img src="/assets/images/reactLogo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/images/reactLogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">React.js</h3>
@@ -132,7 +132,7 @@ Use this space to list resources you find helpful and would like to give credit 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/pamoda-angelo-konara/
-[product-screenshot]: assets/images/product.png
+[product-screenshot]: public/assets/images/product.png
 [React.js]: https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB
 [React-url]: https://reactjs.org/
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white
