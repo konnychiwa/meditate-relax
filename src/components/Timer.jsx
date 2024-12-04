@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { useEffect, useState, Component } from "react"
+import { useEffect, useState } from "react"
 import InputTimer from "./InputTimer"
 import ShowTimer from "./ShowTimer"
 import { AlarmSnd } from "../utils"
