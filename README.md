@@ -6,12 +6,12 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<h3 align="center">React.js</h3>
+
 <div align="center">
   <a href="https://it.legacy.reactjs.org/">
-    <img src="public/assets/images/reactLogo.png" alt="Logo" width="80" height="80">
+    <img src="public/assets/images/reactLogo.png" alt="Logo" width="200" >
   </a>
-
-  <h3 align="center">React.js</h3>
 </div>
 
 
@@ -60,6 +60,7 @@ The carousel is a really basic image slider, the component uses the useState hoo
 
 
 * [![React][React.js]][React-url]
+* [![Vite]][Vite-url]
 * [![Tailwind][TailwindCSS]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -118,9 +119,10 @@ My Repository: https://github.com/konnychiwa?tab=repositories
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+In this space I have added all the useful link that I used to learn
 
 * [React](https://it.legacy.reactjs.org/)
+* [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [GSAP](https://gsap.com/)
 
@@ -135,5 +137,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [product-screenshot]: public/assets/images/product.png
 [React.js]: https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB
 [React-url]: https://reactjs.org/
+[Vite]: https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=fff
+[Vite-url]: https://vite.dev/
 [TailwindCSS]: https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white
 [Tailwind-url]: https://tailwindcss.com/
