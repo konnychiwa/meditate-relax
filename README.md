@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/konnychiwa/meditate-relax)
+[![Product Name Screen Shot][product-screenshot]](https://meditate-pak.netlify.app/)
 
 The Idea of the project started by having the possibility to use 3D Models in my website, by learning react-three-fiber. Something new that is not common everywhere, but is something that I really liked from the beginning, that has the possibility to create cool website. In fact I merged this 3D feature with one of my passion, building on a videogames, in this case Minecraft, with my immagination I can add block in the game and transfer the build on the website. Than with gsap, that is a framework JavaScript Animation library I started learning simple animation for example the title. Finally I started learning Tailwind CSS, a simple way, different from Bootstrap to personalize your website
 
@@ -70,7 +70,8 @@ The carousel is a really basic image slider, the component uses the useState hoo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-In this section you will find out how to use the website on your PC
+You can visit the website at this link: https://meditate-pak.netlify.app/, or
+in this section you will find out how to install the website on your PC
 
 ### Prerequisites
 
